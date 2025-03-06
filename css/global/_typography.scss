@@ -10,3 +10,145 @@ nav {
     color: #fff;
   }
 }
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #fff;
+
+  @media (max-width: 769px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #fff;
+
+  @media (max-width: 769px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  &.wrap {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.5px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27.5px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+span.subheading {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.5px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: #aad9d9;
+
+  @media (max-width: 769px) {
+    align-self: center;
+  }
+
+  &.alt {
+    color: #000000;
+  }
+
+  &.white {
+    color: #fff;
+  }
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.5px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+p.testimonials {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-column {
+  a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.btn {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.5px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 83px;
+  padding: 20px;
+  min-width: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  &.primary {
+    background-color: #8e8edb;
+  }
+
+  &.secondary {
+    border: 1px solid #9ed7d8;
+    background-color: transparent;
+  }
+
+  &.black {
+    background-color: #000000;
+  }
+
+  &.small {
+    min-width: 0;
+  }
+}

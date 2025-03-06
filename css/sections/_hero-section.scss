@@ -1,0 +1,19 @@
+.hero-section {
+  .decor {
+    position: absolute;
+
+    &.top {
+      top: 0;
+    }
+
+    &.right {
+      top: 0;
+      right: 0;
+
+      @media (max-width: 769px) {
+        top: 200px;
+        width: 220px;
+      }
+    }
+  }
+}

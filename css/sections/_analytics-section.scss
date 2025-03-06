@@ -1,0 +1,9 @@
+.analytics-section {
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+
+  @media (max-width: 769px) {
+    gap: 40px;
+  }
+}
