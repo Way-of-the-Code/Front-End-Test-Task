@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020b47;
+}
+
+section,
+header,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1064px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.column {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020b47;
+}
+
+section,
+header,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1064px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container.column {
+  flex-direction: column;
+}
+
+nav a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding-top: 24px;
+}
+header .container {
+  justify-content: space-between;
+}
+header .container .logo {
+  display: block;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+@media (max-width: 769px) {
+  header .container nav {
+    display: none;
+  }
+}
+header .container .burger-menu {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media (max-width: 769px) {
+  header .container .burger-menu {
+    display: block;
+  }
+}
+header .mobile-menu {
+  position: fixed;
+  width: 230px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  left: 0;
+  height: 100vh;
+  background-color: #020b47;
+  transform: translate(-230px);
+  transition: transform 0.3s ease;
+}
+header .mobile-menu.active {
+  transform: translate(0);
+}
+header .mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
